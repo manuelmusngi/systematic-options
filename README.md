@@ -33,13 +33,13 @@ options_strategy_system/\
 ├── src/\                       
 │   ├── main.cpp\                 # Main application entry point
 │   ├── Primary/\                 # Primary infrastructure components
-│   │   ├── Logger.h
-│   │   ├── Logger.cpp
-│   │   ├── ConfigManager.h
-│   │   ├── ConfigManager.cpp
-│   │   ├── EventBus.h
-│   │   ├── ThreadPool.h
-│   │   └── CMakeLists.txt
+│   │   ├── Logger.h\
+│   │   ├── Logger.cpp\
+│   │   ├── ConfigManager.h\
+│   │   ├── ConfigManager.cpp\
+│   │   ├── EventBus.h\
+│   │   ├── ThreadPool.h\
+│   │   └── CMakeLists.txt\
 │   ├── Data/\                   # Data Management Module
 │   │   ├── MarketDataFeed.h
 │   │   ├── MarketDataFeed.cpp
