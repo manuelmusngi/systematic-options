@@ -28,12 +28,11 @@ options_strategy_system/\
 │   ├── app_config.json\
 │   └── strategy_params.json\
 ├── data/\
-|
-│   └── market_data/\
+│   └── market_data/
 ├── docs/\                       
-├── src/\                        # Source code
-│   ├── main.cpp                 # Main application entry point
-│   ├── Primary/                 # Primary infrastructure components
+├── src/\                       
+│   ├── main.cpp\                 # Main application entry point
+│   ├── Primary/\                 # Primary infrastructure components
 │   │   ├── Logger.h
 │   │   ├── Logger.cpp
 │   │   ├── ConfigManager.h
