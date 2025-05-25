@@ -15,7 +15,7 @@ This is designed for scalability and clarity and separates:
 * **Extensible Design:**
   - Implement custom data feeds, pricing models, risk management techniques, and trading signals seamlessly.
 * **Test-Driven Development:**
-  - Includes a dedicated testing structure to ensure the reliability of your strategies.
+  - Includes a dedicated testing structure to ensure the reliability of the strategy.
 * **Cross-Platform Ready:**
   - Leverages CMake for straightforward building on different operating systems.
 
