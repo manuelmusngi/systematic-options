@@ -21,7 +21,7 @@ This is designed for scalability and clarity and separates:
 
 #### Project architecture:
 
-options_strategy_system/\
+options_strategy_system/
 ├── CMakeLists.txt\              # Top-level CMake build file
 ├── README.md\                      
 ├── config/\                     # Configuration files  
