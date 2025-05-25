@@ -1,6 +1,6 @@
 #### systematic-options-trading: a C++ framework
 
-Build, backtest, and deploy your systematic options trading strategies with this robust and modular C++ framework.  
+Build, backtest, and deployment of systematic options trading strategies with a modular C++ framework.  
 This is designed for scalability and clarity and separates:
 
 - data handling
@@ -15,5 +15,5 @@ This is designed for scalability and clarity and separates:
 * **Test-Driven Development:** Includes a dedicated testing structure to ensure the reliability of your strategies.
 * **Cross-Platform Ready:** Leverages CMake for straightforward building on different operating systems.
 
-#### Project :
+#### Project architecture:
 
