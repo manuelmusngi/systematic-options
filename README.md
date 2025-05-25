@@ -22,9 +22,9 @@ This is designed for scalability and clarity and separates:
 #### Project architecture:
 
 options_strategy_system/
-├── CMakeLists.txt\              # Top-level CMake build file
+├── CMakeLists.txt              # Top-level CMake build file\
 ├── README.md\                      
-├── config/\                     # Configuration files  
+├── config/                     # Configuration files\  
 │   ├── app_config.json\
 │   └── strategy_params.json\
 ├── data/\                        
