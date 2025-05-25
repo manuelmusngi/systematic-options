@@ -23,7 +23,7 @@ This is designed for scalability and clarity and separates:
 
 options_strategy_system/
 ├── CMakeLists.txt              # Top-level CMake build file\
-├── README.md\                      
+├── README.md                      
 ├── config/                     # Configuration files  
 │   ├── app_config.json\
 │   └── strategy_params.json\
