@@ -31,8 +31,8 @@ options_strategy_system/\
 │   └── market_data/
 ├── docs/\                       
 ├── src/\                       
-│   ├── main.cpp\                 # Main application entry point
-│   ├── Primary/\                 # Primary infrastructure components
+│   ├── main.cpp                 # Main application entry point\
+│   ├── Primary/                 # Primary infrastructure components\
 │   │   ├── Logger.h\
 │   │   ├── Logger.cpp\
 │   │   ├── ConfigManager.h\
