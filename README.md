@@ -27,9 +27,9 @@ options_strategy_system/\
 ├── config/                     # Configuration files  
 │   ├── app_config.json\
 │   └── strategy_params.json\
-├── data/\                        
-│   ├── market_data/\
-│   └── reference_data/\
+├── data/\
+|
+│   └── market_data/\
 ├── docs/\                       
 ├── src/\                        # Source code
 │   ├── main.cpp                 # Main application entry point
