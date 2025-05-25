@@ -3,10 +3,10 @@
 This project is to build, backtest, and deploy a systematic options trading strategy with a modular C++ framework.  
 This is designed for scalability and clarity and separates:
 
-- data handling
-- derivative modeling
-- strategy logic
-- trade execution 
+- Data handling
+- Derivatives modeling
+- Strategy logic
+- Trade execution 
 
 #### Highlights:
 
