@@ -22,14 +22,14 @@ This is designed for scalability and clarity and separates:
 #### Project architecture:
 
 options_strategy_system/\
-├── CMakeLists.txt               # Top-level CMake build file
-├── README.md                      
+├── CMakeLists.txt\              # Top-level CMake build file
+├── README.md\                      
 ├── config/\                     # Configuration files  
-│   ├── app_config.json
-│   └── strategy_params.json
+│   ├── app_config.json\
+│   └── strategy_params.json\
 ├── data/\                        
-│   ├── market_data/
-│   └── reference_data/
+│   ├── market_data/\
+│   └── reference_data/\
 ├── docs/\                       
 ├── src/\                        # Source code
 │   ├── main.cpp                 # Main application entry point
