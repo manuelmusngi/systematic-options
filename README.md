@@ -1,4 +1,4 @@
-#### systematic-options-trading: a C++ framework
+#### systematic-options-trading: C++ framework
 
 This project is a practice in simple development to design, build, backtest, and deploy a systematic options trading strategy in a modular C++ framework.  
 
