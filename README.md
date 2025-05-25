@@ -1,6 +1,6 @@
 #### systematic-options-trading: a C++ framework
 
-This project is a practice in development to build, backtest, and deploy a systematic options trading strategy in a modular C++ framework.  
+This project is a simple design and practice in development to build, backtest, and deploy a systematic options trading strategy in a modular C++ framework.  
 This is designed for scalability and clarity and separates:
 
 - Data handling
@@ -21,71 +21,49 @@ This is designed for scalability and clarity and separates:
 
 #### Project architecture:
 
-options_strategy_system/\
-├── CMakeLists.txt              # Top-level CMake build file\
-├── README.md                      
-├── config/                     # Configuration files  
-│   ├── app_config.json\
-│   └── strategy_params.json\
-├── data/\
-│   └── market_data/
-├── docs/\                       
-├── src/\                       
-│   ├── main.cpp                 # Main application entry point\
-│   ├── Primary/                 # Primary infrastructure components\
-│   │   ├── Logger.h\
-│   │   ├── Logger.cpp\
-│   │   ├── ConfigManager.h\
-│   │   ├── ConfigManager.cpp\
-│   │   ├── EventBus.h\
-│   │   ├── ThreadPool.h\
-│   │   └── CMakeLists.txt\
-│   ├── Data/\                   # Data Management Module
-│   │   ├── MarketDataFeed.h
-│   │   ├── MarketDataFeed.cpp
-│   │   ├── DataStorage.h
-│   │   ├── DataStorage.cpp
-│   │   ├── DataProcessor.h
-│   │   ├── DataProcessor.cpp
-│   │   ├── ReferenceData.h
-│   │   ├── ReferenceData.cpp
-│   │   └── CMakeLists.txt
-│   ├── Strategy/\              # Strategy Module
-│   │   ├── StrategyBase.h
-│   │   ├── VolatilityStrategy.h
-│   │   ├── VolatilityStrategy.cpp
-│   │   ├── SignalGenerator.h
-│   │   ├── PositionSizer.h
-│   │   └── CMakeLists.txt
-│   ├── Execution/\             # Execution Module
-│   │   ├── OrderManager.h
-│   │   ├── OrderManager.cpp
-│   │   ├── BrokerInterface.h
-│   │   ├── BrokerInterface.cpp
-│   │   ├── FillMonitor.h
-│   │   └── CMakeLists.txt
-│   ├── RiskManagement/\        # Portfolio & Risk Management Module
-│   │   ├── PortfolioManager.h
-│   │   ├── PortfolioManager.cpp
-│   │   ├── RiskMonitor.h
-│   │   ├── RiskMonitor.cpp
-│   │   └── CMakeLists.txt
-│   ├── Backtesting/\           # Backtesting & Analysis Module
-│   │   ├── BacktestEngine.h
-│   │   ├── BacktestEngine.cpp
-│   │   ├── PerformanceMetrics.h
-│   │   ├── ReportGenerator.h
-│   │   └── CMakeLists.txt
-│   └── Utils/\                 # General utility functions/classes
-│       ├── MathUtils.h
-│       ├── TimeUtils.h
-│       └── CMakeLists.txt
-├── tests/\                     # Unit and integration tests
-│   ├── CoreTests.cpp
-│   ├── DataTests.cpp
-│   ├── StrategyTests.cpp
-│   └── CMakeLists.txt
-└── lib/\                       # Third-party libraries  
+ OptionsStrategy/\
+├── include/\
+│   ├── data/\
+│   │   ├── market_data.h
+│   │   ├── option_data.h
+│   │   └── data_provider.h
+│   ├── models/\
+│   │   ├── option_pricing_model.h
+│   │   ├── volatility_model.h
+│   │   └── risk_model.h
+│   ├── strategy/\
+│   │   ├── signal_generator.h
+│   │   ├── portfolio_manager.h
+│   │   └── execution_engine.h
+│   ├── utils/\
+│   │   ├── logging.h
+│   │   ├── configuration.h
+│   │   └── math_utils.h
+│   └── common.h
+├── src/\
+│   ├── data/\
+│   │   ├── market_data.cpp
+│   │   ├── option_data.cpp
+│   │   └── data_provider.cpp
+│   ├── models/\
+│   │   ├── option_pricing_model.cpp
+│   │   ├── volatility_model.cpp
+│   │   └── risk_model.cpp
+│   ├── strategy/\
+│   │   ├── signal_generator.cpp
+│   │   ├── portfolio_manager.cpp
+│   │   └── execution_engine.cpp
+│   ├── utils/\
+│   │   ├── logging.cpp
+│   │   ├── configuration.cpp
+│   │   └── math_utils.cpp
+│   └── main.cpp
+├── tests/\
+│   ├── data/
+│   ├── models/
+│   ├── strategy/
+│   └── utils/
+├── CMakeLists.txt
 
 
 #### License
