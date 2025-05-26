@@ -8,7 +8,7 @@ The project architecture is designed for scalability and clarity which separates
 - Derivatives modeling
 - Strategy logic
 - Trade execution
-- 
+  
 #### Project architecture:
 
  OptionsStrategy/\
