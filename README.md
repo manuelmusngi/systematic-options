@@ -2,7 +2,7 @@
 
 This development project to design, build, backtest, and deploy a systematic options trading strategy in a modular C++ framework.  
 
-This is designed for scalability and clarity which separates:
+The project architecture is designed for scalability and clarity which separates:
 
 - Data handling
 - Derivatives modeling
