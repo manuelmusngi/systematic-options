@@ -1,6 +1,6 @@
-#### systematic-options-trading: C++ framework
+#### systematic-options-volatility-trading: C++ framework
 
-This is a project development to design, build, backtest, and deploy a systematic options trading strategy in a modular C++ framework.  
+This is a project development to design, build, backtest, and deploy a systematic options volatility trading strategy in a modular C++ framework.  
 
 The project architecture is designed for scalability and clarity which separates:
 
