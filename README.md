@@ -1,6 +1,12 @@
 #### systematic-options-volatility-trading: C++ framework
 
-This is a project development to design, build, backtest, and deploy a systematic options volatility trading strategy in a modular C++ framework.  
+This is a project development to design, build, backtest, and deploy a systematic options volatility trading strategy in a modular C++ framework. 
+
+The planned Options volatility strategies that will be incorporated by the development are:
+
+- Volatility Arbitrage
+- Skew and Term Structure Exploitation
+- Rolling volatility strategies
 
 The project architecture is designed for scalability and clarity which separates:
 
@@ -8,12 +14,6 @@ The project architecture is designed for scalability and clarity which separates
 - Derivatives modeling
 - Strategy logic
 - Trade execution
-
-The planned Options volatility strategies that will exploited by the development are:
-
-- Volatility Arbitrage
-- Skew and Term Structure Exploitation
-- Rolling volatility strategies
 
 #### Project architecture:
 
