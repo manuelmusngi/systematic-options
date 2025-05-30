@@ -8,7 +8,13 @@ The project architecture is designed for scalability and clarity which separates
 - Derivatives modeling
 - Strategy logic
 - Trade execution
-  
+
+The planned Options volatility strategies that will exploited by the development are:
+
+- Volatility Arbitrage
+- Skew and Term Structure Exploitation
+- Rolling volatility strategies
+
 #### Project architecture:
 
  OptionsStrategy/\
