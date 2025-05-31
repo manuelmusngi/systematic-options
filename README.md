@@ -2,10 +2,9 @@
 
 This is a project development to design, build, backtest, and deploy a systematic options volatility trading strategy in a modular C++ framework. 
 
-The planned Options volatility strategies that will be incorporated in the development:
+The planned Options volatility strategy that will be incorporated in the development:
 
 - Volatility Arbitrage
-- Skew and Term Structure Exploitation
 
 The project architecture is designed for scalability and clarity which separates:
 
