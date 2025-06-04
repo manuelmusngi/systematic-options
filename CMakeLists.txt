@@ -28,5 +28,5 @@ set(SOURCE_FILES
 # Add the executable target
 add_executable(VolatilityTrading ${SOURCE_FILES})
 
-# Link any necessary libraries (e.g., for math functions if not implicitly linked)
+# Link libraries (math functions if not implicitly linked)
 # target_link_libraries(VolatilityTrading m) 
