@@ -15,50 +15,41 @@ The project is a simple architecture designed for scalability and clarity which 
 
 #### Project architecture:
 
- OptionsStrategy/\
+VolatilityTrading/
 ├── include/\
 │   ├── data/\
-│   │   ├── market_data.h\
-│   │   ├── option_data.h\
-│   │   └── data_provider.h\
+│   │   ├── market_data.h\ 
+│   │   └── option_data.h\
 │   ├── models/\
-│   │   ├── option_pricing_model.h\
-│   │   ├── volatility_model.h\
-│   │   └── risk_model.h\
+│   │   ├── black_scholes.h\
+│   │   ├── volatility_forecast.h\
+│   │   └── risk_management.h\
 │   ├── strategy/\
-│   │   ├── signal_generator.h\
-│   │   ├── portfolio_manager.h\
-│   │   └── execution_engine.h\
+│   │   └── implied_vol_strategy.h\
 │   ├── utils/\
-│   │   ├── logging.h\
-│   │   ├── configuration.h\
+│   │   ├── date_utils.h\
 │   │   └── math_utils.h\
-│   └── common.h\
-├── src/\
+├── src/
 │   ├── data/\
 │   │   ├── market_data.cpp\
-│   │   ├── option_data.cpp\
-│   │   └── data_provider.cpp\
+│   │   └── option_data.cpp\
 │   ├── models/\
-│   │   ├── option_pricing_model.cpp\
-│   │   ├── volatility_model.cpp\
-│   │   └── risk_model.cpp\
+│   │   ├── black_scholes.cpp\
+│   │   ├── volatility_forecast.cpp\
+│   │   └── risk_management.cpp\
 │   ├── strategy/\
-│   │   ├── signal_generator.cpp\
-│   │   ├── portfolio_manager.cpp\
-│   │   └── execution_engine.cpp\
+│   │   └── implied_vol_strategy.cpp\
 │   ├── utils/\
-│   │   ├── logging.cpp\
-│   │   ├── configuration.cpp\
+│   │   ├── date_utils.cpp\
 │   │   └── math_utils.cpp\
-│   └── main.cpp\
-├── tests/\
-│   ├── data/\
+├── data/          // For storing historical data\
+├── logs/          // For logging trading activity\
+├── tests/         // Unit tests\
 │   ├── models/\
-│   ├── strategy/\
-│   └── utils/\
-├── CMakeLists.txt
-
+│   │   └── black_scholes_test.cpp\
+├── CMakeLists.txt\
+└── README.md\
+ 
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
