@@ -48,7 +48,7 @@ VolatilityTrading/\
 │   ├── models/\
 │   │   └── black_scholes_test.cpp\
 ├── CMakeLists.txt\
-└── README.md\
+└── README.md
  
 
 #### License
