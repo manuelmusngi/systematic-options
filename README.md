@@ -15,7 +15,7 @@ The project is a simple architecture designed for scalability and clarity which 
 
 #### Project architecture:
 
-VolatilityTrading/
+VolatilityTrading/\
 ├── include/\
 │   ├── data/\
 │   │   ├── market_data.h\ 
