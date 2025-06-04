@@ -16,6 +16,7 @@ The project is a simple architecture designed for scalability and clarity which 
 #### Project architecture:
 
 VolatilityTrading/\
+├── CMakeLists.txt\
 ├── include/\
 │   ├── data/\
 │   │   ├── market_data.h\
@@ -47,7 +48,6 @@ VolatilityTrading/\
 ├── tests/         // Unit tests\
 │   ├── models/\
 │   │   └── black_scholes_test.cpp\
-├── CMakeLists.txt\
 └── README.md
  
 
