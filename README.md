@@ -17,10 +17,10 @@ The project is a simple architecture designed for scalability and clarity which 
 
 VolatilityTrading/
 ├── include/\
-│   ├── data/
+│   ├── data/\
 │   │   ├── market_data.h\ 
 │   │   └── option_data.h\
-│   ├── models/
+│   ├── models/\
 │   │   ├── black_scholes.h\
 │   │   ├── volatility_forecast.h\
 │   │   └── risk_management.h\
@@ -29,7 +29,7 @@ VolatilityTrading/
 │   ├── utils/\
 │   │   ├── date_utils.h\
 │   │   └── math_utils.h\
-├── src/
+├── src/\
 │   ├── data/\
 │   │   ├── market_data.cpp\
 │   │   └── option_data.cpp\
