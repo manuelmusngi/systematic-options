@@ -18,8 +18,8 @@ The project is a simple architecture designed for scalability and clarity which 
 VolatilityTrading/\
 ├── include/\
 │   ├── data/\
-│   │   ├── market_data.h\ 
-│   │   └── option_data.h\
+│   │   ├── market_data.h
+│   │   └── option_data.h
 │   ├── models/\
 │   │   ├── black_scholes.h\
 │   │   ├── volatility_forecast.h\
