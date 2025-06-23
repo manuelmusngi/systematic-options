@@ -26,6 +26,7 @@ VolatilityTrading/\
 │   │   ├── volatility_forecast.h\
 │   │   └── risk_management.h\
 │   ├── strategy/\
+│   │   ├── strategy.h\
 │   │   └── implied_vol_strategy.h\
 │   ├── utils/\
 │   │   ├── date_utils.h\
