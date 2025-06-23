@@ -20,7 +20,7 @@ VolatilityTrading/\
 ├── include/\
 │   ├── data/\
 │   │   ├── [market_data.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/data/market_data.h)\
-│   │   └── option_data.h\
+│   │   └── [option_data.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/data/option_data.h)\
 │   ├── models/\
 │   │   ├── black_scholes.h\
 │   │   ├── volatility_forecast.h\
