@@ -16,7 +16,7 @@ The project is a simple architecture designed for scalability and clarity which 
 #### Project architecture:
 
 VolatilityTrading/\
-├── CMakeLists.txt\
+├── [CMakeLists.txt](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/CMakeLists.txt)\
 ├── include/\
 │   ├── data/\
 │   │   ├── market_data.h\
