@@ -19,7 +19,7 @@ VolatilityTrading/\
 ├── [CMakeLists.txt](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/CMakeLists.txt)\
 ├── include/\
 │   ├── data/\
-│   │   ├── market_data.h\
+│   │   ├── [market_data.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/data/market_data.h)\
 │   │   └── option_data.h\
 │   ├── models/\
 │   │   ├── black_scholes.h\
