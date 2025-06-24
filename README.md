@@ -32,7 +32,7 @@ VolatilityTrading/\
 │   │   ├── date_utils.h\
 │   │   └── math_utils.h\
 ├── src/\
-│   ├── data/\
+│   ├── data/      // Source files for data handling\
 │   │   ├── market_data.cpp\
 │   │   └── option_data.cpp\
 │   ├── models/\
