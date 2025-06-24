@@ -6,6 +6,7 @@ project(VolatilityTrading CXX)
 # Specify the C++ standard to use
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_EXTENSIONS OFF) # Prefer standard-compliant features
 
 # Define the include directories
 include_directories(
@@ -23,10 +24,11 @@ set(SOURCE_FILES
     src/models/black_scholes.cpp
     src/models/volatility_forecast.cpp
     src/strategy/implied_vol_strategy.cpp
+    src/data/data_loader.cpp 
 )
 
 # Add the executable target
 add_executable(VolatilityTrading ${SOURCE_FILES})
 
-# Link libraries (math functions if not implicitly linked)
+# Link any necessary libraries (e.g., for math functions if not implicitly linked)
 # target_link_libraries(VolatilityTrading m) 
