@@ -6,7 +6,7 @@ The planned Options volatility strategy that will be incorporated in the develop
 
 - Volatility Arbitrage
 
-The project is a simple architecture designed for scalability and clarity which separates:
+The project is a simple strategy pattern architecture designed for scalability and clarity which separates:
 
 - Data handling
 - Derivatives modeling
