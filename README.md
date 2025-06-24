@@ -32,7 +32,7 @@ VolatilityTrading/\
 │   │   ├── date_utils.h\
 │   │   └── math_utils.h\
 ├── src/\
-│   ├── data/      // Source files for data handling\
+│   ├── data/\
 │   │   └── [data_loader.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/data/data_loader.cpp)\
 │   ├── models/\
 │   │   ├── black_scholes.cpp\
