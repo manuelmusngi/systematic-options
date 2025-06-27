@@ -26,7 +26,7 @@ VolatilityTrading/\
 │   │   ├── [volatility_forecast.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/volatility_forecast.h)\
 │   │   └── risk_management.h\
 │   ├── strategy/\
-│   │   ├── strategy.h\
+│   │   ├── [strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/strategy.h)\
 │   │   └── implied_vol_strategy.h\
 │   ├── utils/\
 │   │   ├── date_utils.h\
