@@ -35,7 +35,7 @@ VolatilityTrading/\
 │   ├── data/\
 │   │   └── [data_loader.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/data/data_loader.cpp)\
 │   ├── models/\
-│   │   ├── black_scholes.cpp\
+│   │   ├── [black_scholes.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/black_scholes.cpp)\
 │   │   ├── volatility_forecast.cpp\
 │   │   └── risk_management.cpp\
 │   ├── strategy/\
