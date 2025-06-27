@@ -42,7 +42,7 @@ VolatilityTrading/\
 │   │   └── [implied_vol_strategy.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/strategy/implied_vol_strategy.cpp)\
 │   ├── utils/\
 │   │   ├── date_utils.cpp\
-│   │   └── math_utils.cpp\
+│   │   └── [math_utils.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/utils/math_utils.cpp)\
 ├── data/          // For storing historical data\
 ├── logs/          // For logging trading activity\
 ├── tests/         // Unit tests\
