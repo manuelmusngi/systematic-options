@@ -27,7 +27,7 @@ VolatilityTrading/\
 │   │   └── risk_management.h\
 │   ├── strategy/\
 │   │   ├── [strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/strategy.h)\
-│   │   └── implied_vol_strategy.h\
+│   │   └── [implied_vol_strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/implied_vol_strategy.h)\
 │   ├── utils/\
 │   │   ├── date_utils.h\
 │   │   └── math_utils.h\
