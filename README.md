@@ -39,7 +39,7 @@ VolatilityTrading/\
 │   │   ├── [volatility_forecast.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/volatility_forecast.cpp)\
 │   │   └── risk_management.cpp\
 │   ├── strategy/\
-│   │   └── implied_vol_strategy.cpp\
+│   │   └── [implied_vol_strategy.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/strategy/implied_vol_strategy.cpp)\
 │   ├── utils/\
 │   │   ├── date_utils.cpp\
 │   │   └── math_utils.cpp\
