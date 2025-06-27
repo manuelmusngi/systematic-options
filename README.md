@@ -30,7 +30,7 @@ VolatilityTrading/\
 │   │   └── [implied_vol_strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/implied_vol_strategy.h)\
 │   ├── utils/\
 │   │   ├── date_utils.h\
-│   │   └── math_utils.h\
+│   │   └── [math_utils.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/utils/math_utils.h)\
 ├── src/\
 │   ├── data/\
 │   │   └── [data_loader.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/data/data_loader.cpp)\
