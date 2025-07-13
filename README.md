@@ -2,10 +2,6 @@
 
 This is a project development to design, build, backtest, and deploy a systematic options volatility trading strategy in a modular C++ framework. 
 
-The planned Options volatility strategy that will be incorporated in the development:
-
-- Volatility Arbitrage
-
 The project is a simple strategy pattern architecture designed for scalability and clarity which separates:
 
 - Data handling
