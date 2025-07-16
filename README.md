@@ -33,7 +33,7 @@ VolatilityTrading/\
 │   ├── models/\
 │   │   ├── [black_scholes.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/black_scholes.cpp)\
 │   │   ├── [volatility_forecast.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/volatility_forecast.cpp)\
-│   │   └── risk_management.cpp\
+│   │   └── [risk_management.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/risk_management.h)\
 │   ├── strategy/\
 │   │   └── [implied_vol_strategy.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/strategy/implied_vol_strategy.cpp)\
 │   ├── utils/\
