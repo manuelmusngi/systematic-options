@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Define the project name
+project(Vocmake_minimum_required(VERSION 3.10)
+
+# Define the project name
 project(VolatilityTrading CXX)
 
 # Specify the C++ standard to use
@@ -23,12 +26,10 @@ set(SOURCE_FILES
     src/utils/math_utils.cpp
     src/models/black_scholes.cpp
     src/models/volatility_forecast.cpp
+    src/models/risk_management.cpp # Add the new risk management source file
     src/strategy/implied_vol_strategy.cpp
-    src/data/data_loader.cpp 
+    src/data/data_loader.cpp
 )
 
 # Add the executable target
 add_executable(VolatilityTrading ${SOURCE_FILES})
-
-# Link any necessary libraries (e.g., for math functions if not implicitly linked)
-# target_link_libraries(VolatilityTrading m) 
