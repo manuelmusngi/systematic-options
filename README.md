@@ -20,7 +20,7 @@ VolatilityTrading/\
 │   ├── models/\
 │   │   ├── [black_scholes.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/black_scholes.h)\
 │   │   ├── [volatility_forecast.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/volatility_forecast.h)\
-│   │   └── risk_management.h\
+│   │   └── [risk_management.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/risk_management.h)\
 │   ├── strategy/\
 │   │   ├── [strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/strategy.h)\
 │   │   └── [implied_vol_strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/implied_vol_strategy.h)\
@@ -33,7 +33,7 @@ VolatilityTrading/\
 │   ├── models/\
 │   │   ├── [black_scholes.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/black_scholes.cpp)\
 │   │   ├── [volatility_forecast.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/volatility_forecast.cpp)\
-│   │   └── [risk_management.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/models/risk_management.h)\
+│   │   └── [risk_management.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/models/risk_management.cpp)\
 │   ├── strategy/\
 │   │   └── [implied_vol_strategy.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/strategy/implied_vol_strategy.cpp)\
 │   ├── utils/\
