@@ -25,7 +25,7 @@ VolatilityTrading/\
 │   │   ├── [strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/strategy.h)\
 │   │   └── [implied_vol_strategy.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/strategy/implied_vol_strategy.h)\
 │   ├── utils/\
-│   │   ├── date_utils.h\
+│   │   ├── [date_utils.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/utils/date_utils.h)\
 │   │   └── [math_utils.h](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/include/utils/math_utils.h)\
 ├── src/\
 │   ├── data/\
@@ -37,7 +37,7 @@ VolatilityTrading/\
 │   ├── strategy/\
 │   │   └── [implied_vol_strategy.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/strategy/implied_vol_strategy.cpp)\
 │   ├── utils/\
-│   │   ├── date_utils.cpp\
+│   │   ├── [date_utils.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/utils/date_utils.cpp)\
 │   │   └── [math_utils.cpp](https://github.com/manuelmusngi/systematic-options-volatility-trading/blob/main/src/utils/math_utils.cpp)\
 ├── data/          // For storing historical data\
 ├── logs/          // For logging trading activity\
