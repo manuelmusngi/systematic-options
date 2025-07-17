@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Define the project name
-project(Vocmake_minimum_required(VERSION 3.10)
-
-# Define the project name
 project(VolatilityTrading CXX)
 
 # Specify the C++ standard to use
@@ -24,9 +21,10 @@ include_directories(
 set(SOURCE_FILES
     src/main.cpp
     src/utils/math_utils.cpp
+    src/utils/date_utils.cpp # Add the new date utility source file
     src/models/black_scholes.cpp
     src/models/volatility_forecast.cpp
-    src/models/risk_management.cpp # Add the new risk management source file
+    src/models/risk_management.cpp
     src/strategy/implied_vol_strategy.cpp
     src/data/data_loader.cpp
 )
